@@ -38,28 +38,28 @@ Internal platform for real-estate credit lead management (Spring Boot, Angular, 
 
 | Project | What it does | Stack | Status |
 |---|---|---|---|
-| **QuickOrder** | Order and delivery platform split into 8 microservices (gateway, JWT authentication, catalog, orders, payment, delivery, notifications, analytics) communicating through Kafka, with one PostgreSQL database per service | Spring Boot, Kafka, PostgreSQL, Docker, Kubernetes (AKS), Terraform, Ansible, Prometheus, Grafana, GitHub Actions, Jenkins | In progress |
-| **Evaluation & Tracking System** | Microservices (Exams, Grades, Absences) with Docker Compose, each service in its own container with its own MySQL instance; the Absences service is also deployed on WildFly, Vagrant and Kubernetes (K3s) | Jakarta EE, WildFly, MySQL, Docker, Kubernetes (K3s) | Completed |
-| **Azure Deployment & DB Versioning** (lab) | Web app deployment on Azure with monitoring; versioned schema migrations with rollback and CI/CD integration | Azure, Docker, Flyway / Liquibase | Completed |
-| **Car Rental & Sales Platform** | Design of a web platform (search, booking, payment, admin area), planned for a team of 5 with 2-week sprints in Jira | Spring Boot, Angular, PostgreSQL | Design phase |
+| [**QuickOrder**](https://github.com/athmanmezine44-afk/quickorder) | Order and delivery platform split into 8 microservices (gateway, JWT authentication, catalog, orders, payment, delivery, notifications, analytics) communicating through Kafka, with one PostgreSQL database per service | Spring Boot, Kafka, PostgreSQL, Docker, Kubernetes (AKS), Terraform, Ansible, Prometheus, Grafana, GitHub Actions, Jenkins | In progress |
+| [**Evaluation & Tracking System**](https://github.com/athmanmezine44-afk/evaluation-tracking-microservices) | Microservices (Exams, Grades, Absences) with Docker Compose, each service in its own container with its own MySQL instance; the Absences service is also deployed on WildFly, Vagrant and Kubernetes (K3s) | Jakarta EE, WildFly, MySQL, Docker, Kubernetes (K3s) | Completed |
+| [**Azure Deployment & DB Versioning**](https://github.com/athmanmezine44-afk/azure-deployment-db-versioning) (lab) | Web app deployment on Azure with monitoring; versioned schema migrations with rollback and CI/CD integration | Azure, Docker, Flyway / Liquibase | Completed |
+| [**Car Rental & Sales Platform**](https://github.com/athmanmezine44-afk/car-rental-sales-platform) | Design of a web platform (search, booking, payment, admin area), planned for a team of 5 with 2-week sprints in Jira | Spring Boot, Angular, PostgreSQL | Design phase |
 
 ### Back-end & Databases
 
 | Project | What it does | Stack | Status |
 |---|---|---|---|
-| **GradeFlow** | Grade management with polyglot persistence: relational Oracle schema for students, modules and teachers, and MongoDB for grades and feedback | Spring Boot, Oracle, MongoDB | Completed |
-| **Absence Management** | Web application with 3 roles (Admin, Teacher, Student) and full CRUD on 4 entities | Jakarta EE, JSF, JPA/Hibernate, MySQL, WildFly | Completed |
-| **E-commerce Website** | Complete online shop: product catalog, cart, order processing and customer database | HTML, CSS, PHP, JavaScript, SQL | Completed |
+| [**GradeFlow**](https://github.com/athmanmezine44-afk/gradeflow) | Grade management with polyglot persistence: relational Oracle schema for students, modules and teachers, and MongoDB for grades and feedback | Spring Boot, Oracle, MongoDB | Completed |
+| [**Absence Management**](https://github.com/athmanmezine44-afk/absence-management) | Web application with 3 roles (Admin, Teacher, Student) and full CRUD on 4 entities | Jakarta EE, JSF, JPA/Hibernate, MySQL, WildFly | Completed |
+| [**E-commerce Website**](https://github.com/athmanmezine44-afk/ecommerce-php) | Complete online shop: product catalog, cart, order processing and customer database | HTML, CSS, PHP, JavaScript, SQL | Completed |
 
 ### Data & AI
 
 | Project | What it does | Stack | Status |
 |---|---|---|---|
-| **Telecom Churn — Big Data** | End-to-end pipeline: ingestion, PySpark cleaning, Spark SQL analysis on HDFS in Docker, 8 analytical tables exported to PostgreSQL | PySpark, HDFS, Spark SQL, Docker, Streamlit | Completed |
-| **Smart Parking Detection** | Detection of free and occupied parking spaces from video streams, real-time vehicle counting and monitoring interface | YOLOv8, Python, Streamlit | Completed |
-| **BBC News Text Classification** | k-NN text classifier with TF-IDF, 95.5% validation accuracy (k = 15, 70/15/15 split) | Java, TF-IDF | Completed |
-| **Neural Networks** (3 labs) | Perceptron, PyTorch ResNet18 to Keras MLP conversion, neural regression on housing prices | PyTorch, Keras, Google Colab | Completed |
-| **Invoice Processing RPA** (lab) | Python robot that extracts invoices into a DataFrame, applies a 1,000 MAD decision rule, generates an Excel report, sorts files, sends e-mail alerts and logs every operation | Python, Pandas | Completed |
+| [**Telecom Churn — Big Data**](https://github.com/athmanmezine44-afk/telecom-churn-bigdata) | End-to-end pipeline: ingestion, PySpark cleaning, Spark SQL analysis on HDFS in Docker, 8 analytical tables exported to PostgreSQL | PySpark, HDFS, Spark SQL, Docker, Streamlit | Completed |
+| [**Smart Parking Detection**](https://github.com/athmanmezine44-afk/smart-parking-yolov8) | Detection of free and occupied parking spaces from video streams, real-time vehicle counting and monitoring interface | YOLOv8, Python, Streamlit | Completed |
+| [**BBC News Text Classification**](https://github.com/athmanmezine44-afk/bbc-news-knn-classifier) | k-NN text classifier with TF-IDF, 95.5% validation accuracy (k = 15, 70/15/15 split) | Java, TF-IDF | Completed |
+| [**Neural Networks**](https://github.com/athmanmezine44-afk/neural-networks-labs) (3 labs) | Perceptron, PyTorch ResNet18 to Keras MLP conversion, neural regression on housing prices | PyTorch, Keras, Google Colab | Completed |
+| [**Invoice Processing RPA**](https://github.com/athmanmezine44-afk/invoice-processing-rpa) (lab) | Python robot that extracts invoices into a DataFrame, applies a 1,000 MAD decision rule, generates an Excel report, sorts files, sends e-mail alerts and logs every operation | Python, Pandas | Completed |
 
 ---
 

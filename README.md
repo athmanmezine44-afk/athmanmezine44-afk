@@ -11,7 +11,7 @@ I am looking for a **6-month PFE internship**.
 
 ## 💼 Experience
 
-**Full-Stack Developer Intern — Wafa Immobilier** (Aug 2026 – Present)
+**Full-Stack Developer Intern — Wafa Immobilier** (Aug 2026)
 Internal platform for real-estate credit lead management (Spring Boot, Angular, MySQL): REST API for CSV/Excel import with line-by-line validation (tested on about 45,000 rows), automatic lead scoring, credit simulation, interactive analytics dashboard and API documentation with Swagger/OpenAPI.
 
 ---

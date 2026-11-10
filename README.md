@@ -1,16 +1,21 @@
-## Hi there 👋
+# Hi , I'm ATHMAN MEZINE!
 
-<!--
-**athmanmezine44-afk/athmanmezine44-afk** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**Software Engineering | Data & AI | DevOps & Cloud**
 
-Here are some ideas to get you started:
+ Master's Student in Computer Engineering  
+ Looking for a **6-month PFE Internship — January/February 2027**
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### Languages and Tools I Use
+
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=python,java,c,cpp,js,spring,nodejs,express,react,docker,kubernetes,jenkins,githubactions,terraform,ansible,azure,oracle,linux,postgres,mysql,redis,git,maven,postman,hadoop&perline=9" />
+</p>
+
+### ⚡ Where to find me
+
+<a href="[https://www.linkedin.com](https://www.linkedin.com/in/athman-mezine-abab8735b/)/">
+  <img src="https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+</a>
+<a href="mailto:athmanmezine44@gmail.com">
+  <img src="https://img.shields.io/badge/EMAIL-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+</a>
